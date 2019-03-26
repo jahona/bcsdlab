@@ -15,6 +15,7 @@ class Node {
 // 생성자 : 객체가 생성될 때 호출
 Node::Node(int data) {
     this->data = data;
+    this->nextNode = NULL;
 }
 
 // 소멸자 : 객체에 할당된 메모리가 해제 될 때 호출
